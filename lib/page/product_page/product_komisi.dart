@@ -28,10 +28,10 @@ class ProductKomisi extends StatelessWidget {
           ),
           Text(
             'Rp.35.600 ',
-            style: GoogleFonts.inter().copyWith(
-              fontWeight: FontWeight.w700,
-              fontSize: 18,
-            ),
+            style: RegularConstant().regularNoneBold.copyWith(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 18,
+                ),
           ),
           Text(
             '(20%)',
