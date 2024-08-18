@@ -10,26 +10,27 @@ class ProductButton extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Container(
-          width: 239,
-          height: 40,
-          decoration: BoxDecoration(
-            border: Border.all(
-              color: ColorPrimary.primary950,
-            ),
-            borderRadius: BorderRadius.circular(8),
-          ),
-          child: ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white,
+        GestureDetector(
+          onTap: () {},
+          child: Container(
+            width: 239,
+            height: 40,
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: ColorPrimary.primary950,
               ),
-              onPressed: () {},
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Align(
+              alignment: Alignment.center,
               child: Text(
                 'Tambahkan ke toko',
                 style: SmallConstant().smallTightMedium.copyWith(
                       color: ColorPrimary.primary950,
                     ),
-              )),
+              ),
+            ),
+          ),
         ),
         SizedBox(
           width: 90,

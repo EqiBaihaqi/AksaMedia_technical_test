@@ -11,5 +11,4 @@ class OnboardingController extends GetxController {
     );
   }
 
-  void goToProduct() {}
 }

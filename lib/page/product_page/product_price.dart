@@ -20,7 +20,7 @@ class ProductPrice extends StatelessWidget {
               height: 4,
             ),
             Text(
-              'Harga Customes',
+              'Harga Customer',
               style: SmallConstant().smallNoneRegular,
             ),
           ],
@@ -42,7 +42,7 @@ class ProductPrice extends StatelessWidget {
               height: 4,
             ),
             Text(
-              'Harga Customes',
+              'Harga Customer',
               style: SmallConstant().smallNoneRegular,
             ),
           ],
