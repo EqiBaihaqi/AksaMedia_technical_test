@@ -1,7 +1,7 @@
 import 'package:aksamedia_technical_test/constant/color_constant.dart';
 import 'package:aksamedia_technical_test/constant/font_constant.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 class ProductKomisi extends StatelessWidget {
   const ProductKomisi({super.key});
